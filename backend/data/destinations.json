@@ -1,0 +1,115 @@
+[
+    {
+      "destination": "Johannesburg",
+      "servicedBy": ["Alberton Taxi Rank", "Bara Taxi Rank", "Bree Taxi Rank", "Carlton Centre Taxi Rank", "Chris Hani Crossing Taxi Rank", "Eastgate Mall Taxi Rank", "Noord Taxi Rank", "Randburg Taxi Rank"]
+    },
+    {
+      "destination": "Bara Taxi Rank",
+      "servicedBy": ["Alberton Taxi Rank"]
+    },
+    {
+      "destination": "Katlehong Taxi Rank",
+      "servicedBy": ["Alberton Taxi Rank", "Chris Hani Crossing Taxi Rank"]
+    },
+    {
+      "destination": "Eden Park",
+      "servicedBy": ["Alberton Taxi Rank"]
+    },
+    {
+      "destination": "South Gate",
+      "servicedBy": ["Bara Taxi Rank"]
+    },
+    {
+      "destination": "Eldorado Park",
+      "servicedBy": ["Bara Taxi Rank"]
+    },
+    {
+      "destination": "Randfontein",
+      "servicedBy": ["Bara Taxi Rank", "Krugersdorp Taxi Rank", "Kagiso Taxi Rank"]
+    },
+    {
+      "destination": "Kliptown",
+      "servicedBy": ["Bree Taxi Rank"]
+    },
+    {
+      "destination": "Naturena",
+      "servicedBy": ["Bree Taxi Rank"]
+    },
+    {
+      "destination": "Gold Reef City",
+      "servicedBy": ["Bree Taxi Rank"]
+    },
+    {
+      "destination": "Booysens",
+      "servicedBy": ["Bree Taxi Rank"]
+    },
+    {
+      "destination": "Dube",
+      "servicedBy": ["Carlton Centre Taxi Rank"]
+    },
+    {
+      "destination": "Mofolo",
+      "servicedBy": ["Carlton Centre Taxi Rank"]
+    },
+    {
+      "destination": "Chiawelo",
+      "servicedBy": ["Carlton Centre Taxi Rank"]
+    },
+    {
+      "destination": "Rockville",
+      "servicedBy": ["Carlton Centre Taxi Rank", "Chris Hani Crossing Taxi Rank"]
+    },
+    {
+      "destination": "Spruitview",
+      "servicedBy": ["Chris Hani Crossing Taxi Rank"]
+    },
+    {
+      "destination": "Germiston",
+      "servicedBy": ["Eastgate Mall Taxi Rank"]
+    },
+    {
+      "destination": "Daveyton",
+      "servicedBy": ["Eastgate Mall Taxi Rank"]
+    },
+    {
+      "destination": "Roodeport",
+      "servicedBy": ["Eastgate Mall Taxi Rank", "Kagiso Taxi Rank", "Krugersdorp Taxi Rank"]
+    },
+    {
+      "destination": "Kagiso Ext 12",
+      "servicedBy": ["Kagiso Taxi Rank", "Krugersdorp Taxi Rank"]
+    },
+    {
+      "destination": "Leratong Hospital",
+      "servicedBy": ["Krugersdorp Taxi Rank"]
+    },
+    {
+      "destination": "Swaneville",
+      "servicedBy": ["Krugersdorp Taxi Rank"]
+    },
+    {
+      "destination": "Vosloorus",
+      "servicedBy": ["Chris Hani Crossing Taxi Rank", "Noord Taxi Rank"]
+    },
+    {
+      "destination": "Forways",
+      "servicedBy": ["Noord Taxi Rank"]
+    },
+    {
+      "destination": "Sandton",
+      "servicedBy": ["Noord Taxi Rank", "Randburg Taxi Rank"]
+    },
+    {
+      "destination": "Pretoria",
+      "servicedBy": ["Noord Taxi Rank"]
+    },
+    {
+      "destination": "Rosebank",
+      "servicedBy": ["Randburg Taxi Rank"]
+    },
+    {
+      "destination": "Honeydew",
+      "servicedBy": ["Randburg Taxi Rank"]
+    }
+  ]
+  

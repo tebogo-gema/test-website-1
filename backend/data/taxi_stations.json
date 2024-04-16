@@ -1,0 +1,93 @@
+[
+    {
+      "name": "Alberton Taxi Rank",
+      "address": "New Redruth, Alberton, 1449",
+      "coordinates": {
+        "latitude": -26.261633111487058,
+        "longitude": 28.121585267321777
+      },
+      "destinations": ["Johannesburg", "Bara Taxi Rank", "Katlehong Taxi Rank", "Eden Park"]
+    },
+    {
+      "name": "Bara Taxi Rank",
+      "address": "8097b Chris Hani Road, Diepkloof Zone 6, Diepmeadow, 1862",
+      "coordinates": {
+        "latitude": -26.259228207997918,
+        "longitude": 27.942266430693454
+      },
+      "destinations": ["Johannesburg", "South Gate", "Eldorado Park", "Randfontein"]
+    },
+    {
+      "name": "Bree Taxi Rank",
+      "address": "Lilian Ngoyi St, Johannesburg, 2000",
+      "coordinates": {
+        "latitude": -26.20031153874862,
+        "longitude": 28.036664149889905
+      },
+      "destinations": ["Kliptown", "Naturena", "Gold Reef City", "Booysens"]
+    },
+    {
+      "name": "Carlton Centre Taxi Rank",
+      "address": "Marshalltown, Johannesburg, 2107",
+      "coordinates": {
+        "latitude": -26.2055302413786,
+        "longitude": 28.047456237943514
+      },
+      "destinations": ["Dube", "Mofolo", "Chiawelo", "Rockville"]
+    },
+    {
+      "name": "Chris Hani Crossing Taxi Rank",
+      "address": "Vosloorus Ext 32, Vosloorus, 1425",
+      "coordinates": {
+        "latitude": -26.330604724320402,
+        "longitude": 28.179925420647482
+      },
+      "destinations": ["Rockville", "Katlehong", "Spruitview", "Johannesburg"]
+    },
+    {
+      "name": "Eastgate Mall Taxi Rank",
+      "address": "Bradford Rd, Bradford, Johannesburg, 2000",
+      "coordinates": {
+        "latitude": -26.180720269149223,
+        "longitude": 28.11950153840984
+      },
+      "destinations": ["Germiston", "Johannesburg", "Daveyton", "Bree Taxi Rank"]
+    },
+    {
+      "name": "Kagiso Taxi Rank",
+      "address": "Ext 12, Kagiso, Krugersdorp, 1754",
+      "coordinates": {
+        "latitude": -26.174796550115893,
+        "longitude": 27.791488265123522
+      },
+      "destinations": ["Roodeport", "Randfontein", "Krugersdorp", "Kagiso Ext 12"]
+    },
+    {
+      "name": "Krugersdorp Taxi Rank",
+      "address": "Pretoria St, Paardeplaats 177 IQ, Johannesburg",
+      "coordinates": {
+        "latitude": -26.088998535785173,
+        "longitude": 27.77119464092854
+      },
+      "destinations": ["Leratong Hospital", "Kagiso Ext 12", "Swaneville", "Roodeport"]
+    },
+    {
+      "name": "Noord Taxi Rank",
+      "address": "68 Plein St, Johannesburg, 2000",
+      "coordinates": {
+        "latitude": -26.19887390100708,
+        "longitude": 28.047899899857573
+      },
+      "destinations": ["Vosloorus", "Forways", "Sandton", "Pretoria"]
+    },
+    {
+      "name": "Randburg Taxi Rank",
+      "address": "Jan Smuts Ave, Blairgowrie, Randburg, 2194",
+      "coordinates": {
+        "latitude": -26.09463063468749,
+        "longitude": 28.006827685057228
+      },
+      "destinations": ["Sandton", "Rosebank", "Johanneburg", "Honeydew"]
+    }
+  ]
+  
