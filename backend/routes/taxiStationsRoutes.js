@@ -1,6 +1,6 @@
 const express = require('express');
 const { body, validationResult } = require('express-validator');
-const TaxiStation = require('../models/taxiStations');
+const taxiStationsController = require('../controllers/taxiStationsController');
 
 const router = express.Router();
 
@@ -8,23 +8,18 @@ const router = express.Router();
 router.post('/create', [
   body('name').notEmpty().isString(),
   body('location').notEmpty().isString(),
-], async (req, res) => {
-  const errors = validationResult(req);
-  if (!errors.isEmpty()) {
-    return res.status(400).json({ errors: errors.array() });
-  }
+], taxiStationsController.createTaxiStation);
 
-  try {
-    const { name, location } = req.body;
-    const taxiStation = new TaxiStation({ name, location });
-    await taxiStation.save();
-    res.status(201).json({ message: 'Taxi station created successfully', taxiStation });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: 'Server error' });
-  }
-});
+// Route to get all taxi stations
+router.get('/', taxiStationsController.getAllTaxiStations);
 
-// Other routes for taxi stations...
+// Route to get a specific taxi station by ID
+router.get('/:id', taxiStationsController.getTaxiStationById);
+
+// Route to update an existing taxi station by ID
+router.put('/:id', taxiStationsController.updateTaxiStationById);
+
+// Route to delete a taxi station by ID
+router.delete('/:id', taxiStationsController.deleteTaxiStationById);
 
 module.exports = router;

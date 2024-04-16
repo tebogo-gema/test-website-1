@@ -10,7 +10,7 @@ const destinationsRoutes = require('./routes/destinationsRoutes');
 const app = express();
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/q_marshall', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost:27017/q_marshall')
   .then(() => logger.info('Connected to MongoDB')) // Log success message
   .catch(err => {
     logger.error('Error connecting to MongoDB:', err); // Log error message
@@ -33,7 +33,7 @@ app.use('/api/destinations', destinationsRoutes);
 // Error handling middleware
 app.use((err, req, res, next) => {
   logger.error(err.stack); // Log error stack trace
-  res.status(500).send('Something went wrong!');
+  res.status(500).json({ error: 'Something went wrong!' }); // Send error response as JSON
 });
 
 // Start the server

@@ -1,0 +1,8 @@
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"GET /ws"}
+{"level":"info","message":"Server is running on port 3000"}
+{"level":"info","message":"Connected to MongoDB"}
+{"level":"info","message":"GET /manifest.json"}
+{"level":"info","message":"GET /static/js/bundle.js.map"}
+{"level":"info","message":"GET /ws"}
